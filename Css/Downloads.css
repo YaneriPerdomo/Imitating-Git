@@ -1,0 +1,118 @@
+body{
+    color: rgb(57, 57, 57) !important;
+    background-color: rgb(241, 241, 233) !important;
+ }
+ 
+ .bg-light, .parrafo{
+    background-color: rgba(199, 199, 199, 0.3) !important;
+ }
+ 
+ 
+ /* Main >  Col-2*/
+ 
+ .col-12:last-child{
+    background-color: white;
+ }
+ .linear{
+     background-image: repeating-linear-gradient(
+        80deg,
+         rgb(255, 255, 255) 0px 10px,
+         rgb(41, 41, 41) 10px  15px
+     );
+     width: 100%;
+     height: 1rem;
+  
+ }
+ 
+ .Radius > span{
+     width: 7rem !important;
+     height: 6rem !important;
+     border: solid  black 2px;
+     display: inline-block;
+     padding: 2rem;
+    transition: all 1s linear;
+    background-color: rgb(194, 194, 194) !important;
+ }
+ 
+ span > a{
+    color: rgb(68, 52, 52);
+    transition: color 1s linear !important;
+ }
+ 
+ .Radius > span > a:hover{
+    color: white;
+ }
+ .Radius > span:hover{
+    cursor: pointer;
+    background-color: rgb(255, 106, 0) !important;
+    color: white;
+ }
+ 
+ /*Lista */
+ 
+ ul > li{
+    list-style: none;
+ }
+  li > a , a > span{
+    color: black;
+    text-decoration: none;
+     list-style: none;
+     transition: color 1s ease !important;
+  }
+ 
+  .marron{
+    color: rgb(68, 52, 52) !important;
+  }
+  h1 > span{
+    color: grey;
+  }
+ 
+  .bi-git{
+    color: rgb(255, 106, 0);
+  }
+ 
+  li > a:hover{
+    cursor: pointer;
+    color: rgb(255, 106, 0) !important;
+  }
+ 
+  /*text-color*/
+ 
+  .text-orange{
+     color: rgb(255, 106, 0);
+  }
+ 
+  .text-cyan{
+     color: rgb(0, 195, 255);
+  }
+ 
+  .area{
+     background-color: rgb(198, 198, 198) !important ;
+     color: grey;
+     cursor: pointer;
+  }
+  
+  /*media query*/
+ @media (max-width: 575px) { 
+  .About-Footer > div{
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+  }
+  }
+  
+  
+  .bottom-nav{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .sub-video{
+    outline-offset: 0.3rem;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: 0.1rem;
+    border: solid 0.3px grey;
+  }
+
+  .sub-video ~  p{
+    color: rgb(57, 57, 57) !important;
+  }
