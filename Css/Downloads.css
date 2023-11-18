@@ -116,3 +116,13 @@ body{
   .sub-video ~  p{
     color: rgb(57, 57, 57) !important;
   }
+
+  .text-s{
+   background-color: rgb(121, 121, 121,0.4);
+   padding: 0.7rem 0.4rem 0.7rem 0.4rem;
+ }
+
+ body {
+   margin: 0;
+   /* padding-top: 50px; */
+ }

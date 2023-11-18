@@ -98,9 +98,26 @@ ul > li{
    flex-wrap: wrap !important;
    gap: 1rem !important;
  }
+
+ 
  }
+
+@media   (min-width:575px ){
+   form {
+      display: none !important;
+    }
+}
  
  
  .bottom-nav{
    background-color: rgba(0, 0, 0, 0.1);
+ }
+
+ .text-s{
+   background-color: rgb(121, 121, 121,0.4);
+ }
+
+ body {
+   margin: 0;
+   /* padding-top: 50px; */
  }
